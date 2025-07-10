@@ -8,7 +8,7 @@ The RLA is developed to achieve high recall and computational efficiency in reso
 
 The Reflex Learning Algorithm (RLA) is a lightweight, interpretable classifier inspired by biological reflexes, designed for high-recall classification of critical medical cases. It uses automated threshold-based reflex zones to prioritize rapid detection of high-risk patterns (e.g., clump thickness in breast cancer or ST depression in heart disease) with minimal computational overhead. The algorithm is particularly suited for low-resource environments, such as rural clinics or low-power diagnostic devices, achieving 100% recall for Heart Disease and Hepatitis (non-SMOTE) datasets and 91.67% for Breast Cancer.
 
-This repository provides the Python implementation of RLA as a scikit-learn estimator, along with scripts for preprocessing, training, and evaluation on UCI medical datasets.
+This repository provides the Python implementation of RLA, along with scripts for preprocessing, training, and evaluation on UCI medical datasets.
 
 ## Dataset
 
